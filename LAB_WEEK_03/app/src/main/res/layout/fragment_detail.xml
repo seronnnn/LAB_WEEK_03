@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
-    tools:context=".DetailFragment">
+    android:padding="20dp">
 
     <TextView
         android:id="@+id/coffee_title"
@@ -15,7 +13,7 @@
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="20sp"
-        tools:text="@string/affogato_title" />
+        android:text="@string/coffee_list"/>
 
     <View
         android:layout_width="match_parent"
@@ -28,7 +26,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="16sp"
-        tools:text="@string/affogato_desc" />
-
+        android:text="@string/affogato_desc" />
 </LinearLayout>
